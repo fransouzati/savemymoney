@@ -11,7 +11,7 @@
     ---!>
     <br />
 </p>
- <a href="https://whimsical.com/estrutura-do-projeto-kU5GeBCnz1arV8RjP5xhN">Clique aqui para visualizar o Flow Chart do Projeto</a><br><br>
+ <a href="https://whimsical.com/estrutura-do-projeto-kU5GeBCnz1arV8RjP5xhN">Clique aqui para visualizar o Flow Chart do Projeto</a><br><a href="https://whimsical.com/telas-H4zkTpchCvNUnSjCEZ3SFx">Clique aqui para visualizar as telas UI/UX do Projeto</a><br><br><br>
 <details open="open">
   <summary>Conteudo</summary>
   <ol>
