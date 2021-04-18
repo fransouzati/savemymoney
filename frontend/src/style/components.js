@@ -35,5 +35,19 @@ export const Button = styled.button`
    display: inline-block;
    cursor: pointer;
    text-align: center;
+
 `
 
+export const Box = styled.div`
+    border-radius: 0;
+    border: solid black 1px;
+`
+export const Input = styled.input`
+    font-family:'Roboto';
+    outline:none;
+    border-width:0px;
+    border-bottom: 1px solid rgb(35,177,163);
+    background-color:transparent;
+    margin-bottom:4px;
+    height:35px;
+`

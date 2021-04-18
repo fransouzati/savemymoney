@@ -1,5 +1,23 @@
 * {
+    transition: all 0.5s;
     margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(35, 177, 163);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #4EE6BD;
 }
 
 body {
@@ -14,16 +32,21 @@ h1 {
 /* Header */
 
 .header {
-    justify-content:space-between;
+    justify-content: space-between;
     display: flex;
     flex-direction: row;
-    top:0;
-    margin-top:50px;
-    margin-left:35px;
+    top: 0;
+    margin-top: 50px;
+    margin-left: 35px;
 }
 
 .header h1 {
     color: #1abc9c;
+}
+
+.header h1:hover {
+    cursor: pointer;
+    transform: translate(10px);
 }
 
 /* Page */
@@ -33,8 +56,92 @@ h1 {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    top:0;
-    bottom:0;
-    margin-top:9%;
-    margin-left:10%;
+    top: 0;
+    bottom: 0;
+    margin-top: 9%;
+    margin-left: 10%;
+}
+
+.page-dashboard {
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    bottom: 0;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+
+/* Home Page */
+
+#btn-login-home {
+    background-color: rgb(35, 177, 163);
+    color: white;
+    float: right;
+    margin-right: 90px;
+}
+
+#btn-login-home:hover {
+    background-color: #4EE6BD;
+}
+
+#btn-register-home {
+    background-color: transparent;
+    font-size: 10pt;
+    color: #7f8c8d;
+    margin-right: 5px;
+}
+
+#btn-register-home:hover {
+    color: #211F1E;
+}
+
+/*Auth Page*/
+
+#btn-auth-login {
+    width: 150px;
+    margin-top: 20px;
+    background-color: rgb(35, 177, 163);
+    color: white;
+}
+
+#btn-auth-login:hover {
+    background-color: #4EE6BD;
+}
+
+#auth-input:focus {
+    transform: translate(12px);
+    border-bottom: 1px solid #4EE6BD;
+}
+
+#txt-auth-register:hover {
+    transform: translate(5px);
+    cursor: pointer;
+}
+
+/* Dashboard Page */
+
+#boxs {
+    margin-top: 35px;
+}
+
+#user-box {
+    margin-bottom: 25px;
+    outline: none;
+    border-width: 0px;
+    background-color: white;
+}
+
+#box-title {
+    font-size: 14pt;
+    margin-left: 12px;
+    margin-top: 9px;
+    margin-bottom: 12px;
+    color: #5a5f5f !important;
+}
+
+/*Components*/
+
+#icon-button-div:hover {
+    background-color: #f8f9fa !important;
+    transform: translateY(10px)
 }
