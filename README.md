@@ -2,7 +2,7 @@
 
   <h3 align="center">Save My Money 😜 </h3>
   
-  <img align="center" src="imgs/savemymoney.png"></img>
+  <img align="center" src="imgs/dashboard.png"></img>
   
   <p align="center">
     Uma maneira inteligente de você gerenciar seu dinheiro 💰
